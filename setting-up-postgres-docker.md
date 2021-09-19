@@ -10,6 +10,13 @@
 
 ```docker run --name postgres-container-name -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres:alpine```
 
+**OR if you need to persist you data in docker volume**
+
+```docker run --name postgres-container-name -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 -v /Users/UserName/data/pg:/var/lib/postgresql/data postgres:alpine```
+
+in this command above **/Users/UserName/data/pg** is some directory in your local machine and you can change it but **/var/lib/postgresql/data** is a path inside the docker conatiner and is fixed.
+
+
 This will map the post 5432 of container to the post 5432 of the Local machine
 
 Note - If you stop a container or maybe shutdown your local machine use command ```docker start postgres-container-name``` to restart the container
