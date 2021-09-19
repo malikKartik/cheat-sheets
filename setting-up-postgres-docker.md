@@ -1,4 +1,4 @@
-### Setting up postgres in docker for development
+## Setting up postgres in docker for development
 
 - Install docker
 - pull image
