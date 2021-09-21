@@ -38,8 +38,10 @@ and https://stackoverflow.com/questions/56392041/getting-errimageneverpull-in-po
 
 
 ### Setting up alias for kubectl
-Kubectl is a very hard word to type or let's just say I am to lazy to do that
+Kubectl is a very hard word to type or let's just say I am too lazy to do that.
+
 **If you are using windows and using power shell** 
+
 To create a permanent alias paste the following command in the file echoed by ```echo $profile```
 
 ```Set-Alias -Name k -Value kubectl``` - This will do the trick for you
