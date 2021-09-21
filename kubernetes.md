@@ -30,6 +30,7 @@ and https://stackoverflow.com/questions/56392041/getting-errimageneverpull-in-po
 
 ### Start kubernetes with minikube
 ```minikube start```
+
 ```eval $(minikube docker-env)```
 
 ### Services
