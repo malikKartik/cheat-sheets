@@ -17,7 +17,7 @@
 in this command above **/Users/UserName/data/pg** is some directory in your local machine and you can change it but **/var/lib/postgresql/data** is a path inside the docker conatiner and is fixed.
 
 
-This will map the post 5432 of container to the post 5432 of the Local machine
+This will map the port 5432 of container to the port 5432 of the Local machine
 
 Note - If you stop a container or maybe shutdown your local machine use command ```docker start postgres-container-name``` to restart the container
 
